@@ -1,20 +1,7 @@
-# React Typescript Yarn berry Template
+# Useful React Library
 
-React+Typescript+YarnBerry
-
-## 🧰 Getting Started
-### ‼️ Prerequisites
-This project uses Yarn as package manager
-```shell
-npm install --global yarn
-yarn
-```
-Make repository using this template and Clone.
-
-After Clone, EDIT `package.json`.
-### 🧪 Using
-```shell
-yarn dev
-yarn build
-yarn start
-```
+* [react-sweet-state](https://atlassian.github.io/react-sweet-state/): Global State Management
+* [react-query](https://tanstack.com/query/latest/docs/framework/react/overview): Server State Management
+---
+* [XState](https://xstate.js.org/docs/): FSM Based, Business Model Implement
+* [react-hook-form](https://react-hook-form.com/): Make Multiple Form
