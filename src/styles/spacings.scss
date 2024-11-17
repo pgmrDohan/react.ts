@@ -1,0 +1,21 @@
+$spacings: (
+  "xs": 4px,
+  "sm": 8px,
+  "md": 16px,
+  "lg": 24px,
+  "xl": 32px
+);
+
+@each $name, $size in $spacings {
+  .m-#{$name} { margin: $size; }
+  .mt-#{$name} { margin-top: $size; }
+  .mr-#{$name} { margin-right: $size; }
+  .mb-#{$name} { margin-bottom: $size; }
+  .ml-#{$name} { margin-left: $size; }
+
+  .p-#{$name} { padding: $size; }
+  .pt-#{$name} { padding-top: $size; }
+  .pr-#{$name} { padding-right: $size; }
+  .pb-#{$name} { padding-bottom: $size; }
+  .pl-#{$name} { padding-left: $size; }
+}
