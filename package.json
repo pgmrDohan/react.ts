@@ -14,7 +14,7 @@
 		"sass": "^1.79.4",
 		"the-new-css-reset": "^1.11.3",
 		"typescript": "^4.9.5",
-		"vite": "^5.4.8"
+		"vite": "^5.4.12"
 	},
 	"scripts": {
 		"start": "vite",
