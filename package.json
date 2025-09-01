@@ -44,6 +44,7 @@
 		"@eslint/js": "^9.2.0",
 		"@types/eslint": "^8",
 		"@types/node": "^22.9.0",
+		"esbuild": "^0.25.9",
 		"eslint": "8.57.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-react": "^7.34.1",
