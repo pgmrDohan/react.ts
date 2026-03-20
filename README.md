@@ -1,4 +1,12 @@
-# Useful React Library
+# React.TS
+
+React boilerplate
+
+```sh
+yarn set version berry
+```
+
+## Recommend Packages
 
 - [vite-react-ssg](https://github.com/Daydreamer-riri/vite-react-ssg): SSG
 
@@ -11,7 +19,3 @@
 
 - [XState](https://xstate.js.org/docs/): FSM Based, Business Model Implement
 - [react-hook-form](https://react-hook-form.com/): Make Multiple Form
-
-# Useful Website on development
-
-- [favicongenerator](https://realfavicongenerator.net/)
