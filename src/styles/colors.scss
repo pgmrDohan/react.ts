@@ -1,3 +1,5 @@
+@use "sass:meta";
+
 $colors: (
   "primary": (
     "light": #a6d4fa,
@@ -33,7 +35,7 @@ $themes: (
 
 :root {
   @each $color-name, $shades in $colors {
-    @if type-of($shades) == "map" {
+    @if meta.type-of($shades) == "map" {
       @each $shade-name, $color-value in $shades {
 				@if $shade-name == "default" {
 					--color-#{$color-name}: #{$color-value};

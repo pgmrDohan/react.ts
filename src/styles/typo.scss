@@ -1,3 +1,5 @@
+@use "sass:map";
+
 $font-family-primary: 'Helvetica, Arial, sans-serif';
 
 $typography: (
@@ -11,9 +13,9 @@ $typography: (
 );
 
 @mixin typography($type) {
-  font-size: map-get(map-get($typography, $type), size);
-  font-weight: map-get(map-get($typography, $type), weight);
-  line-height: map-get(map-get($typography, $type), line-height);
+  font-size: map.get(map.get($typography, $type), size);
+  font-weight: map.get(map.get($typography, $type), weight);
+  line-height: map.get(map.get($typography, $type), line-height);
   font-family: $font-family-primary;
 }
 
@@ -23,7 +25,7 @@ html {
 
 :root {
   @each $type, $styles in $typography {
-    --font-size-#{$type}: #{map-get($styles, size)};
+    --font-size-#{$type}: #{map.get($styles, size)};
 	}
 }
 
