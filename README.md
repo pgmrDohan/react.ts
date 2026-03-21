@@ -12,8 +12,10 @@ yarn set version berry
 
 ---
 
-- [react-sweet-state](https://atlassian.github.io/react-sweet-state/): Global State Management
-- [react-query](https://tanstack.com/query/latest/docs/framework/react/overview): Server State Management
+- [react-sweet-state](https://atlassian.github.io/react-sweet-state/): Global
+  State Management
+- [react-query](https://tanstack.com/query/latest/docs/framework/react/overview):
+  Server State Management
 
 ---
 

@@ -1,9 +1,9 @@
 {
-  "search.exclude": {
-    "**/.yarn": true,
-    "**/.pnp.*": true
-  },
+  "search.exclude": {"**/.yarn": true, "**/.pnp.*": true},
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "eslint.nodePath": ".yarn/sdks"
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.configPath": "config/.prettierrc",
+  "prettier.ignorePath": "config/.prettierignore",
+  "js/ts.tsdk.path": ".yarn/sdks/typescript/lib"
 }

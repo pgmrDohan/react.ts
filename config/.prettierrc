@@ -1,0 +1,6 @@
+{
+  "quoteProps": "consistent",
+  "bracketSpacing": false,
+  "objectWrap": "collapse",
+  "proseWrap": "always"
+}

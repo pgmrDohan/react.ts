@@ -1,6 +1,1 @@
-{
-  "recommendations": [
-    "arcanis.vscode-zipfs",
-    "dbaeumer.vscode-eslint"
-  ]
-}
+{"recommendations": ["arcanis.vscode-zipfs", "dbaeumer.vscode-eslint"]}

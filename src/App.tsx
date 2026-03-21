@@ -1,21 +1,21 @@
-import { RouterProvider } from 'react-router-dom';
+import {RouterProvider} from "react-router-dom";
 
-import { useDarkMode, useRouter } from '@/hooks';
-import { useEffect } from 'react';
+import {useDarkMode, useRouter} from "@/hooks";
+import {useEffect} from "react";
 
 const App = () => {
-	const router = useRouter();
-	const { applyTheme } = useDarkMode();
+  const router = useRouter();
+  const {applyTheme} = useDarkMode();
 
-	useEffect(()=>{
-		applyTheme();
-	},[]);
+  useEffect(() => {
+    applyTheme();
+  }, []);
 
-	return (
-		<>
-			<RouterProvider router={router} />
-		</>
-	);
-}
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
+};
 
 export default App;

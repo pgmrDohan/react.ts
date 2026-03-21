@@ -24,24 +24,24 @@ $colors: (
 
 $themes: (
   "light": (
-		"background": #ffffff,
-  	"text": #000000,
-	),
+    "background": #ffffff,
+    "text": #000000,
+  ),
   "dark": (
-		"background": #121212,
-  	"text": #ffffff,
-	),
+    "background": #121212,
+    "text": #ffffff,
+  ),
 );
 
 :root {
   @each $color-name, $shades in $colors {
     @if meta.type-of($shades) == "map" {
       @each $shade-name, $color-value in $shades {
-				@if $shade-name == "default" {
-					--color-#{$color-name}: #{$color-value};
-				} @else {
-        	--color-#{$color-name}-#{$shade-name}: #{$color-value};
-				}
+        @if $shade-name == "default" {
+          --color-#{$color-name}: #{$color-value};
+        } @else {
+          --color-#{$color-name}-#{$shade-name}: #{$color-value};
+        }
       }
     } @else {
       --color-#{$color-name}: #{$shades};
@@ -50,7 +50,7 @@ $themes: (
 }
 
 html {
-	@each $theme-name, $theme-values in $themes {
+  @each $theme-name, $theme-values in $themes {
     &[data-theme="#{$theme-name}"] {
       @each $key, $value in $theme-values {
         --theme-#{$key}: #{$value};

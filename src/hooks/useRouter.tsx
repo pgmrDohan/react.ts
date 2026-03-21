@@ -1,19 +1,15 @@
-import { createBrowserRouter } from 'react-router-dom';
+import {createBrowserRouter} from "react-router-dom";
 
-import {
-    Layout,
-} from '@/components';
+import {Layout} from "@/components";
 
-import {
-    Home,
-    NotFound
-} from '@/pages';
+import {Home, NotFound} from "@/pages";
 
-export const useRouter = () => createBrowserRouter([
+export const useRouter = () =>
+  createBrowserRouter([
     {
-        path: '/',
-        element: <Layout />,
-        errorElement: <NotFound />,
-        children: [{ index: true, element: <Home /> }],
+      path: "/",
+      element: <Layout />,
+      errorElement: <NotFound />,
+      children: [{index: true, element: <Home />}],
     },
-]);
+  ]);
