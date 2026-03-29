@@ -39,15 +39,15 @@
     "globals": "^17.4.0",
     "prettier": "^3.8.1",
     "react-dom": "^19.2.4",
-    "react-router-dom": "^7.13.1",
+    "react-router-dom": "^7.13.2",
     "the-new-css-reset": "^1.11.3",
-    "typescript-eslint": "^8.57.1"
+    "typescript-eslint": "^8.57.2"
   },
   "dependencies": {
     "eslint": "10",
     "react": "^19.2.4",
     "sass": "^1.98.0",
-    "typescript": "^5.9.3",
-    "vite": "^8.0.1"
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3"
   }
 }
