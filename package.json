@@ -31,7 +31,7 @@
   "packageManager": "yarn@4.13.0",
   "devDependencies": {
     "@eslint/js": "10",
-    "@types/node": "^25.8.0",
+    "@types/node": "^25.9.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^6.0.2",
@@ -41,13 +41,13 @@
     "react-dom": "^19.2.6",
     "react-router-dom": "^7.15.1",
     "the-new-css-reset": "^1.11.3",
-    "typescript-eslint": "^8.59.3"
+    "typescript-eslint": "^8.59.4"
   },
   "dependencies": {
     "eslint": "10",
     "react": "^19.2.6",
-    "sass": "^1.99.0",
+    "sass": "^1.100.0",
     "typescript": "^6.0.3",
-    "vite": "^8.0.13"
+    "vite": "^8.0.14"
   }
 }
