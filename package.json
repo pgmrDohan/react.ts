@@ -39,9 +39,9 @@
     "globals": "^17.6.0",
     "prettier": "^3.8.3",
     "react-dom": "^19.2.6",
-    "react-router-dom": "^7.15.1",
+    "react-router-dom": "^7.16.0",
     "the-new-css-reset": "^1.11.3",
-    "typescript-eslint": "^8.59.4"
+    "typescript-eslint": "^8.60.0"
   },
   "dependencies": {
     "eslint": "10",
