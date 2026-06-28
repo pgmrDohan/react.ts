@@ -31,23 +31,23 @@
   "packageManager": "yarn@4.13.0",
   "devDependencies": {
     "@eslint/js": "10",
-    "@types/node": "^26.0.0",
+    "@types/node": "^26.0.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@vitejs/plugin-react": "^6.0.2",
+    "@vitejs/plugin-react": "^6.0.3",
     "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.6.0",
-    "prettier": "^3.8.4",
+    "globals": "^17.7.0",
+    "prettier": "^3.9.1",
     "react-dom": "^19.2.7",
     "react-router-dom": "^7.18.0",
     "the-new-css-reset": "^1.11.3",
-    "typescript-eslint": "^8.61.1"
+    "typescript-eslint": "^8.62.0"
   },
   "dependencies": {
     "eslint": "10",
     "react": "^19.2.7",
     "sass": "^1.101.0",
     "typescript": "^6.0.3",
-    "vite": "^8.0.16"
+    "vite": "^8.1.0"
   }
 }
