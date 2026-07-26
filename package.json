@@ -34,19 +34,19 @@
     "@types/node": "^26.1.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@vitejs/plugin-react": "^6.0.3",
+    "@vitejs/plugin-react": "^6.0.4",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^17.7.0",
-    "prettier": "^3.9.5",
-    "react-dom": "^19.2.7",
+    "prettier": "^3.9.6",
+    "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.1",
     "the-new-css-reset": "^1.11.3",
-    "typescript-eslint": "^8.64.0"
+    "typescript-eslint": "^8.65.0"
   },
   "dependencies": {
     "eslint": "10",
-    "react": "^19.2.7",
-    "sass": "^1.101.0",
+    "react": "^19.2.8",
+    "sass": "^1.102.0",
     "typescript": "^6.0.3",
     "vite": "^8.1.5"
   }
