@@ -31,15 +31,15 @@
   "packageManager": "yarn@4.13.0",
   "devDependencies": {
     "@eslint/js": "10",
-    "@types/node": "^26.1.1",
+    "@types/node": "^26.1.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@vitejs/plugin-react": "^6.0.4",
+    "@vitejs/plugin-react": "^6.0.5",
     "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.7.0",
+    "globals": "^17.8.0",
     "prettier": "^3.9.6",
     "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.1",
+    "react-router-dom": "^7.18.2",
     "the-new-css-reset": "^1.11.3",
     "typescript-eslint": "^8.65.0"
   },
@@ -48,6 +48,6 @@
     "react": "^19.2.8",
     "sass": "^1.102.0",
     "typescript": "^6.0.3",
-    "vite": "^8.1.5"
+    "vite": "^8.2.0"
   }
 }
