@@ -36,12 +36,12 @@
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^6.0.5",
     "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.8.0",
+    "globals": "^17.9.0",
     "prettier": "^3.9.6",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.2",
     "the-new-css-reset": "^1.11.3",
-    "typescript-eslint": "^8.65.0"
+    "typescript-eslint": "^8.66.0"
   },
   "dependencies": {
     "eslint": "10",
