@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "baseUrl": "../",
-    "paths": {"@/*": ["src/*"]},
+    "rootDir": "../",
+    "paths": {"@/*": ["../src/*"]},
     "target": "ESNext",
     "lib": ["dom", "dom.iterable", "esnext"],
     "types": ["vite/client"],
     "allowJs": false,
     "skipLibCheck": false,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,

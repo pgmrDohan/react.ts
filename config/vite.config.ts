@@ -8,7 +8,9 @@ export default defineConfig({
   plugins: [react({devTarget: "esnext"})],
   css: {preprocessorOptions: {scss: {api: "modern"}}},
   resolve: {
-    alias: [{find: "@", replacement: path.resolve(__dirname, "../src")}],
+    alias: [
+      {find: "@", replacement: path.resolve(import.meta.dirname, "../src")},
+    ],
     extensions: [".js", ".ts", ".jsx", ".tsx", ".scss"],
   },
   cacheDir: "../.yarn/.vite",
