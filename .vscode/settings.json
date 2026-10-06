@@ -1,13 +1,9 @@
 {
-  "search.exclude": {
-    "**/.yarn": true,
-    "**/.pnp.*": true
-  },
-  "typescript.tsdk": ".yarn/sdks/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "search.exclude": {"**/.yarn": true, "**/.pnp.*": true},
   "eslint.nodePath": ".yarn/sdks",
   "prettier.configPath": "config/.prettierrc",
   "prettier.ignorePath": "config/.prettierignore",
   "js/ts.tsdk.path": ".yarn/sdks/typescript/lib",
+  "js/ts.tsdk.promptToUseWorkspaceVersion": true,
   "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs"
 }
