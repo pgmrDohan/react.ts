@@ -3,17 +3,21 @@
 React boilerplate
 
 ```sh
-yarn set version berry
+yarn
+yarn start
+yarn build
+yarn serve
+yarn lint
+yarn format
 ```
 
 ## Recommend Packages
 
-- [vite-react-ssg](https://github.com/Daydreamer-riri/vite-react-ssg): SSG
+- [vite-plugin-svgr](https://github.com/pd4d10/vite-plugin-svgr): Use SVG as
+  Component
 
 ---
 
-- [react-sweet-state](https://atlassian.github.io/react-sweet-state/): Global
-  State Management
 - [react-query](https://tanstack.com/query/latest/docs/framework/react/overview):
   Server State Management
 
