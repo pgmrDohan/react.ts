@@ -4,7 +4,7 @@ import tseslint from "typescript-eslint";
 import pluginReactConfig from "eslint-plugin-react/configs/recommended.js";
 
 export default [
-  {ignores: ["**/dist/**", "**/.yarn/**", ".pnp**"]},
+  {ignores: ["**/dist/**", "**/.yarn/**", ".pnp**", "**/.react-router/**"]},
   {
     files: ["../src/**/*.{ts,tsx}"],
     languageOptions: {globals: globals.browser},

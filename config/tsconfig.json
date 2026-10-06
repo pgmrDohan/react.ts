@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "rootDir": "../",
+    "rootDirs": ["../", "../.react-router/types"],
     "paths": {"@/*": ["../src/*"]},
     "target": "ESNext",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -19,5 +20,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["../src"]
+  "include": ["../src", "../.react-router/types/**/*"]
 }

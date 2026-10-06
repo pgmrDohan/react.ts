@@ -221,3 +221,5 @@ $RECYCLE.BIN/
 dist/*
 !dist
 !dist/.keep
+
+.react-router/

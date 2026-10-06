@@ -1,5 +1,5 @@
 import styles from "./index.module.scss";
 
-export function Home() {
+export default function Home() {
   return <></>;
 }

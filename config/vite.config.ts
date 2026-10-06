@@ -1,19 +1,16 @@
 import {defineConfig} from "vite";
-import react from "@vitejs/plugin-react";
+import {reactRouter} from "@react-router/dev/vite";
 import path from "path";
 
 export default defineConfig({
-  root: "src",
-  publicDir: "../public",
-  plugins: [react({devTarget: "esnext"})],
-  css: {preprocessorOptions: {scss: {api: "modern"}}},
+  root: path.resolve(import.meta.dirname, ".."),
+  plugins: [reactRouter()],
   resolve: {
     alias: [
       {find: "@", replacement: path.resolve(import.meta.dirname, "../src")},
     ],
     extensions: [".js", ".ts", ".jsx", ".tsx", ".scss"],
   },
-  cacheDir: "../.yarn/.vite",
+  cacheDir: path.resolve(import.meta.dirname, "../.yarn/.vite"),
   optimizeDeps: {exclude: ["blip-ds/loader"]},
-  build: {outDir: "../dist", emptyOutDir: true},
 });
