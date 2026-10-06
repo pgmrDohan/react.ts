@@ -4,9 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "vite --config config/vite.config.ts",
-    "build": "tsc -p config/tsconfig.json && vite build --config config/vite.config.ts",
-    "serve": "vite preview --config config/vite.config.ts",
+    "start": "react-router dev . --config config/vite.config.ts",
+    "typegen": "react-router typegen . --config config/vite.config.ts",
+    "build": "yarn typegen && tsc -p config/tsconfig.json && react-router build . --config config/vite.config.ts",
+    "serve": "sirv dist/client --single __spa-fallback.html",
     "lint": "eslint --config config/eslint.config.mjs",
     "format": "prettier . --write --config config/.prettierrc --ignore-path config/.prettierignore"
   },
@@ -31,22 +32,24 @@
   "packageManager": "yarn@4.13.0",
   "devDependencies": {
     "@eslint/js": "10",
+    "@react-router/dev": "^8.4.0",
     "@types/node": "^26.6.3",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@vitejs/plugin-react": "^6.1.1",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^17.13.0",
     "prettier": "^3.9.9",
     "react-dom": "^19.3.0",
-    "react-router-dom": "^7.18.4",
+    "sirv-cli": "^3.0.1",
     "the-new-css-reset": "^1.11.3",
     "typescript-eslint": "^8.71.0"
   },
   "dependencies": {
     "eslint": "10",
+    "isbot": "^5",
     "react": "^19.3.0",
-    "sass": "^1.105.1",
+    "react-router": "^8.4.0",
+    "sass-embedded": "^1.105.1",
     "typescript": "^6.0.3",
     "vite": "^8.3.2"
   }
